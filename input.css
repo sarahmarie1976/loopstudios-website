@@ -50,3 +50,8 @@
 .nav-decor {
   @apply mx-2 group-hover:border-b group-hover:border-blue-50;
 }
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(100%) hue-rotate(15deg)
+    brightness(101%) contrast(50%);
+}
